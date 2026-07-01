@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6a0041/v1
+canonical_location: https://kanripo.org/bkk/KR6a0041/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 頻婆娑羅王經
+  identifiers:
+    alt_id:
+    - T01n0041
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0041.xml
+    old_id: T01n0041
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0041_000.yaml, hash: 'sha256:665c6b2ac1acf9d80c5c4cc6a4a59c70dca67dbfa329b8d587c6aca1aaeaf693'}
+  - {seq: 1, filename: KR6a0041_001.yaml, hash: 'sha256:1e46b4aa0bd70ded4ceb129c2b0a43ee1fba79852f3b648b68ff70d8a3bcdfac'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0041_001.markers.yaml, hash: 'sha256:29fcd7f56d4151e4acb36b5b866baef547af0bf1a4344938fd8ed2b24cde3bff'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0041_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2318
+  label: 佛說頻婆娑羅王經
+  type: juan
+  level: 1
+hash: sha256:4ec956f723164322c00679d7ada8d91bb5f2179379251994f42b672f31251961
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
