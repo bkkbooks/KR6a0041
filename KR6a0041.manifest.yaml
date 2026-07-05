@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0041_000.yaml, hash: 'sha256:665c6b2ac1acf9d80c5c4cc6a4a59c70dca67dbfa329b8d587c6aca1aaeaf693'}
-  - {seq: 1, filename: KR6a0041_001.yaml, hash: 'sha256:1e46b4aa0bd70ded4ceb129c2b0a43ee1fba79852f3b648b68ff70d8a3bcdfac'}
+  - {seq: 1, filename: KR6a0041_001.yaml, hash: 'sha256:a1cba3cc21980389b7f9262fa2e272111bb34ab288689df01026d5a4099b082a'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6a0041_001.markers.yaml, hash: 'sha256:29fcd7f56d4151e4acb36b5b866baef547af0bf1a4344938fd8ed2b24cde3bff'}
+  - {seq: 0, role: markers, filename: assets/KR6a0041_000.markers.yaml, hash: 'sha256:1d4cd04c49e892a5e065e43f77a08a5ef12400fc18255df18c707c6f81fad23c'}
+  - {seq: 1, role: markers, filename: assets/KR6a0041_001.markers.yaml, hash: 'sha256:38be9ba2087fd3c76980b259f4f568be604dfb3c01525d09e2a69c75bce8cec4'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說頻婆娑羅王經
   type: juan
   level: 1
-hash: sha256:4ec956f723164322c00679d7ada8d91bb5f2179379251994f42b672f31251961
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:98cada4a1167069cf36cd899356809ad827828d24e3d8b427229fd5c3847e2aa
